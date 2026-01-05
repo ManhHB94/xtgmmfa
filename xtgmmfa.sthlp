@@ -168,8 +168,7 @@ All {it:varlists} may contain factor variables; see {help fvvarlist}.{p_end}
 {marker update}{...}
 {title:Version updates}
 
-{pstd}To update the {cmd:xtgmmfa} package to the latest version, run either of the following commands{p_end}
-{phang2}. {stata `"ssc install xtgmmfa, replace"'}{p_end}
+{pstd}To update the {cmd:xtgmmfa} package to the latest version, run the following commands{p_end}
 {phang2}. {stata `"net install xtgmmfa, from("https://raw.githubusercontent.com/ManhHB94/xtgmmfa/main/") replace"'}{p_end}
 
 
@@ -195,20 +194,11 @@ I would like to express my sincere gratitude to Arturas Juodis and Vasilis Saraf
 {title:References}
 
 {phang}
-Arellano, M., and S. R. Bond. 1991.
-Some tests of specification for panel data: Monte Carlo evidence and an application to employment equations.
-{it:Review of Economic Studies} 58: 277-297.
-
-{phang}
 Juodis, A., & Sarafidis, V. (2022). A linear estimator for factor-augmented fixed-T panels with endogenous regressors. {it:Journal of Business & Economic Statistics}, 40(1), 1-15.
-
-{phang}
-Roodman, D. 2009.
-A note on the theme of too many instruments.
-{it:Oxford Bulletin of Economics and Statistics} 71: 135-158.
 
 {phang}
 Windmeijer, F. 2005.
 A finite sample correction for the variance of linear efficient two-step GMM estimators.
 {it:Journal of Econometrics} 126: 25-51.
+
 

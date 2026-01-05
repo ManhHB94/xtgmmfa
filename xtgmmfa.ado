@@ -6,7 +6,7 @@
 			Author: 	Manh Hoang Ba
 			Support:	hbmanh9492@gmail.com
 
-			Ref.: 		Joudis & Sarafidis (2022)
+			Ref.: 		Juodis & Sarafidis (2022)
 
 
 	31/12/25 - Version 1.0: the first contribution
@@ -1899,3 +1899,4 @@ real matrix estimate(
 }
 
 end
+

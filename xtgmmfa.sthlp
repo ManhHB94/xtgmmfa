@@ -20,7 +20,7 @@
 
 {pstd}
 {cmd:xtgmmfa} performs GMM estimation for fixed-T panel data model with multifactor structural errors and the presence of endogenous variables.
-The underlying methodology involves approximating the unobserved common factors using observed factor proxies. The resulting moment conditions are linear in the parameters. See Joudis and Sarafidis (2022) for more details.
+The underlying methodology involves approximating the unobserved common factors using observed factor proxies. The resulting moment conditions are linear in the parameters. See Juodis and Sarafidis (2022) for more details.
 
 
 {synoptset 20 tabbed}{...}
@@ -85,13 +85,13 @@ All {it:varlists} may contain factor variables; see {help fvvarlist}.{p_end}
 
 {title:Example}
 
-{pstd}Water data (Joudis and Sarafidis, 2022){p_end}
+{pstd}Water data (Juodis and Sarafidis, 2022){p_end}
 {phang2}. {stata use js22data, clear}{p_end}
 
-{pstd}Regularization: column M_F of table 1 in Joudis and Sarafidis (2022){p_end}
+{pstd}Regularization: column M_F of table 1 in Juodis and Sarafidis (2022){p_end}
 {phang2}. {stata xtgmmfa l(0/1).lcons price rain temp, gmm(l.lcons l.price rain temp) unof(smi, type(1)) nocons wmat(1)}{p_end}
 
-{pstd}Best-Subset Selection: column M1_c of table 1 in Joudis and Sarafidis (2022){p_end}
+{pstd}Best-Subset Selection: column M1_c of table 1 in Juodis and Sarafidis (2022){p_end}
 {phang2}. {stata xtgmmfa l(0/1).lcons price rain temp, gmm(l.lcons l.price rain temp) unof(smi, bss type(1) lmax(4)) nocons wmat(1)}{p_end}
 
 {pstd} Arellano-Bond data{p_end}
@@ -187,7 +187,7 @@ hbmanh9492@gmail.com
 {title:Acknowledgement}
 
 {pstd}
-I would like to express my sincere gratitude to Arturas Joudis and Vasilis Sarafidis, who developed the linear GMM approach for this class of models. The implementation of {cmd:xtgmmfa} benefited substantially from the MATLAB code provided with their research.
+I would like to express my sincere gratitude to Arturas Juodis and Vasilis Sarafidis, who developed the linear GMM approach for this class of models. The implementation of {cmd:xtgmmfa} benefited substantially from the MATLAB code provided with their research.
 
 
 {marker references}{...}
@@ -211,3 +211,4 @@ A note on the theme of too many instruments.
 Windmeijer, F. 2005.
 A finite sample correction for the variance of linear efficient two-step GMM estimators.
 {it:Journal of Econometrics} 126: 25-51.
+

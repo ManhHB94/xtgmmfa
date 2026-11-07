@@ -72,7 +72,7 @@ All {it:{help varlist}} may contain factor variables; see {help fvvarlist}.{p_en
 {synoptset 23 tabbed}{...}
 {synopthdr:gmm_opts}
 {synoptline}
-{synopt:{cmd:lag(}{it:a b}{cmd:)}}use lags {it:a} to {it:b} of the variables; {it:a} < {it:b}; {it:b} = {cmd:.} means all earlier periods; default is {cmd:lag(}0 .{cmd:})}{p_end}
+{synopt:{cmd:lag(}{it:a b}{cmd:)}}use lags {it:a} to {it:b} of the variables; {it:a} < {it:b}; {it:b} = {cmd:.} means all earlier periods; default is {cmd:lag(}0 .{cmd:)}{p_end}
 {synopt:{opt col:lapse}}one moment condition per lag instead of one per lag and period{p_end}
 {synopt:{opt pre:sample}}also use values from periods before the first estimation period{p_end}
 {synoptline}

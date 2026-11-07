@@ -1,4 +1,4 @@
-v 2.0
+v 2.1
 d Package index for xtgmmfa
-d Updated: 29 Oct 2026
+d Updated: 07 Nov 2026
 p xtgmmfa

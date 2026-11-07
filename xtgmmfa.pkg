@@ -1,7 +1,7 @@
-v 2.0
+v 2.1
 d xtgmmfa — performs GMM estimation for fixed-T factor-augmented panel data model
 d Author: Manh Hoang-Ba
-d Version: 2.0 29 Oct 2026
+d Version: 2.1 07 Nov 2026
 f xtgmmfa.ado
 f xtgmmfa.sthlp
 f lxtgmmfa.mlib
